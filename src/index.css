@@ -1,0 +1,51 @@
+@font-face {
+  font-family: 'Montserrat-medium-15'; /* Fontunuza vermek istediğiniz isim */
+  src: url('../public/fonts/Montserrat/Montserrat-Medium.otf') format('truetype'), /* WOFF2 tercih edilir */
+       url('../public/fonts/Montserrat/Montserrat-Medium.otf') format('truetype');  /* WOFF desteği için */
+  font-weight: 15px; /* Fontun kalınlığı */
+  font-style: normal;  /* Fontun stili */
+  font-display: swap; /* Font yüklenirken metnin görünür kalmasını sağlar */
+}
+
+@font-face {
+  font-family: 'Montserrat-regular-15'; /* Fontunuza vermek istediğiniz isim */
+  src: url('../public/fonts/Montserrat/Montserrat-Regular.ttf') format('woff2'), /* WOFF2 tercih edilir */
+       url('../public/fonts/Montserrat/Montserrat-Regular.ttf') format('woff');  /* WOFF desteği için */
+  font-weight: 15px; /* Fontun kalınlığı */
+  font-style: normal;  /* Fontun stili */
+  font-display: swap; /* Font yüklenirken metnin görünür kalmasını sağlar */
+}
+
+@font-face {
+  font-family: 'Avenir-45'; /* Fontunuza vermek istediğiniz isim */
+  src: url('../public/fonts/Avenir/Avenir-Book.ttf') format('truetype'), /* WOFF2 tercih edilir */
+       url('../public/fonts/Avenir/Avenir-Book.ttf') format('woff');  /* WOFF desteği için */
+  font-weight: 45px; /* Fontun kalınlığı */
+  font-style: italic;  /* Fontun stili */
+  font-display: swap; /* Font yüklenirken metnin görünür kalmasını sağlar */
+}
+
+@font-face {
+  font-family: 'Avenir-12'; /* Fontunuza vermek istediğiniz isim */
+  src: url('../public/fonts/Avenir/Avenir-Book.ttf') format('truetype'), /* WOFF2 tercih edilir */
+       url('../public/fonts/Avenir/Avenir-Book.ttf') format('truetype');  /* WOFF desteği için */
+  font-weight: 12px; /* Fontun kalınlığı */
+  font-style: normal;  /* Fontun stili */
+  font-display: swap; /* Font yüklenirken metnin görünür kalmasını sağlar */
+}
+
+.HeaderAvenu{
+    font-family: "Avenir-45";
+}
+
+.ColorText{
+    font-family: "Avenir-12";
+}
+
+.ProductTitle{
+    font-family: "Montserrat-medium-15";
+}
+
+.ProductPrice{
+   font-family:"Montserrat-regular-15" ; 
+}
